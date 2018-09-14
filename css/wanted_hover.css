@@ -1,0 +1,65 @@
+body{
+	font-family: Arial;
+}
+
+#Gandalf{
+	background-image: url(https://s33.postimg.cc/kslmqybsf/gandalf.jpg);
+}
+
+#Hobbit{
+	background-image: url(https://s33.postimg.cc/wt72r9qsf/hobbit.jpg);
+}
+
+#Yummy{
+	background-image: url(https://s33.postimg.cc/pbxvc890v/gollum.jpg);
+}
+.wanted-notice{
+	background-size: 100%;
+	background-repeat: no-repeat;
+    opacity:0.65;
+
+	width:18em;
+	height:20em;
+}
+.reward{
+	background-color: rgba(240,243,244,0.8);
+	border-radius: 18px;
+	border: none;
+    color: black;
+    padding: 1em 3em;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+.price{
+	color: #F85B17;
+}
+.criminal-name{
+	text-align: center;
+	font-size: 50px;
+	color: #FDFEFE;
+	padding-top: 150px;
+}
+#Yummy:hover,
+#Hobbit:hover,
+#Gandalf:hover{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	opacity: 1;
+
+
+	width:18em;
+	height:20em;
+}
+div .wanted-notice:hover .criminal-name{
+	    font-size:26px;
+	    margin-top: 200px;
+}
+
+div .wanted-notice:hover .reward{
+	    font-size:1px;
+	    background-color : transparent;
+	    border: none;
+}

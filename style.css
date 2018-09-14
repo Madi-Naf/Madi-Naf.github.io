@@ -1,0 +1,55 @@
+#topbar {
+    margin: 0 auto;
+}
+
+a{
+  color: #ECF0F1 !important;
+}
+
+.active a,
+.active {
+  color: #010101 !important;
+}
+
+hr {
+  height: 0.2em;
+  padding: 0;
+  background-color: #515A5A;
+  border: 1em;
+}
+/* PILLS */
+
+.pills-header{
+	margin-bottom: 1em;
+}
+
+.pills-btn{
+  color: #515A5A !important;
+}
+/* CARD*/
+.card-header{
+  width: 100%;
+  text-align: center;
+}
+.wanted-notice{
+  display: inline-block;
+}
+/* About the ring*/
+table, th, td {
+	text-align: center;
+}
+th, td{
+	border: 1px solid black !important;
+}
+#Gollum-namer{
+	margin-left:80%;
+}
+
+/* item center */
+.center-container{
+  width: 100%;
+  text-align: center;
+}
+.item-center{
+  display: inline-block;
+}
