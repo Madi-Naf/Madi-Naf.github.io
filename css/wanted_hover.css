@@ -3,15 +3,15 @@ body{
 }
 
 #Gandalf{
-	background-image: url(https://s33.postimg.cc/kslmqybsf/gandalf.jpg);
+	background-image: url(https://i.postimg.cc/DwtjGhZg/gandalf.png);
 }
 
-#Hobbit{
-	background-image: url(https://s33.postimg.cc/wt72r9qsf/hobbit.jpg);
+#Aragorn{
+	background-image: url(https://i.postimg.cc/wBRKKFtW/aragorn.png);
 }
 
-#Yummy{
-	background-image: url(https://s33.postimg.cc/pbxvc890v/gollum.jpg);
+#Gimli{
+	background-image: url(https://i.postimg.cc/ZKNyRzGZ/gimli.png);
 }
 .wanted-notice{
 	background-size: 100%;
@@ -34,11 +34,11 @@ body{
     margin-right: 20px;
 }
 .price{
-	color: #F85B17;
+	color: #FC6306;
 }
 .criminal-name{
 	text-align: center;
-	font-size: 50px;
+	font-size: 35em;
 	color: #FDFEFE;
 	padding-top: 150px;
 }
@@ -54,8 +54,8 @@ body{
 	height:20em;
 }
 div .wanted-notice:hover .criminal-name{
-	    font-size:26px;
-	    margin-top: 200px;
+	    font-size:10em;
+
 }
 
 div .wanted-notice:hover .reward{

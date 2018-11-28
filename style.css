@@ -1,3 +1,49 @@
+/* ------------------------- \
+          General
+\ ------------------------- */
+
+@font-face{ /* importe fonts */
+  src: url(font/anicm.ttf);
+  font-family: Aniron;
+}
+.text-title{
+  font-family: Aniron !important;
+}
+@font-face{
+  src: url(font/partybusiness.ttf);
+  font-family: "Party Business font ";
+}
+body,
+.tex-content{
+  font-family: "Party Business font ";
+}
+@font-face{
+  src: url(font/tngani.ttf);
+  font-family: "Tengwar Annatar"
+}
+.fonts-icon{
+  font-family: "Tengwar Annatar"
+}
+.orange-text{
+  color: #FC6306;
+}
+.white-text{
+  color: #FBFCFC;
+}
+.bg-img-dark{
+  background-image: url(https://i.postimg.cc/JnJsP9bM/bg_dark.png) !important;
+}
+.bg-img-light{
+  background-image: url(https://i.postimg.cc/KY9nLSmz/bg_light.png) !important;
+}
+/* ------------------------- \
+            Header
+\ ------------------------- */
+nav,
+footer,
+.bg-orange{
+  background-color: #FC6306  ;
+}
 #topbar {
     margin: 0 auto;
 }
@@ -6,18 +52,15 @@ a{
   color: #ECF0F1 !important;
 }
 
-.active a,
-.active {
-  color: #010101 !important;
-}
-
 hr {
   height: 0.2em;
   padding: 0;
   background-color: #515A5A;
   border: 1em;
 }
-/* PILLS */
+/* ------------------------- \
+          Pills
+\ ------------------------- */
 
 .pills-header{
 	margin-bottom: 1em;
@@ -34,18 +77,16 @@ hr {
 .wanted-notice{
   display: inline-block;
 }
-/* About the ring*/
-table, th, td {
-	text-align: center;
-}
-th, td{
-	border: 1px solid black !important;
-}
+/* ------------------------- \
+        About the ring
+\ ------------------------- */
+
 #Gollum-namer{
 	margin-left:80%;
 }
-
-/* item center */
+/* ------------------------- \
+      Item center
+\ ------------------------- */
 .center-container{
   width: 100%;
   text-align: center;
